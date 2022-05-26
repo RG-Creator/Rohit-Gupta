@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Square Peg', cursive;
+}
+/* ---------------------PRELOADER------------------------- */
+
+#PRELOADER{
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#PRELOADER h1{
+    position: absolute;  
+}
+#PRELOADER .loader1{
+    top: 42%;
+    left: 44%;
+    font-family: 'Caveat', cursive;
+    animation: mover 1s infinite alternate;
+    color: white;
+}
+#PRELOADER .loader2{
+    top: 42%;
+    left: 50%;
+    font-family: 'Caveat', cursive;
+    animation: mover 1s infinite alternate-reverse;
+    color: grey;
+}
+@media (max-width:330px ){
+    #PRELOADER .loader1{
+        left: 34%;
+    }
+    #PRELOADER .loader2{
+        left: 52%;
+    }
+}
+@media (min-width:330px) and (max-width:380px){
+    #PRELOADER .loader1{
+        left: 36%;
+    }
+    #PRELOADER .loader2{
+        left: 52%;
+    }
+}
+@media (min-width:380px) and (max-width:430px){
+    #PRELOADER .loader1{
+        left: 37%;
+    }
+    #PRELOADER .loader2{
+        left: 51%;
+    }
+}
+@media (min-width:480px ) and (max-width:770px){
+    #PRELOADER .loader1{
+        left: 40%;
+    }
+    #PRELOADER .loader2{
+        left: 50%;
+    }
+}
+@media (min-width:770px ) and (max-width:1030px){
+    #PRELOADER .loader1{
+        left: 41%;
+    }
+    #PRELOADER .loader2{
+        left: 49%;
+    }
+}
+@media (min-width:1030px ) and (max-width:1450px){
+    #PRELOADER .loader1{
+        left: 42%;
+    }
+    #PRELOADER .loader2{
+        left: 48%;
+    }
+}
+@media (min-width:1770px ) and (max-width:2580px){
+    #PRELOADER .loader1{
+        left: 43%;
+    }
+    #PRELOADER .loader2{
+        left: 48%;
+    }
+}
+@keyframes mover {
+    0% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+/* } */
+
+/* ---------------------PRELOADER------------------------- */
+
+/*---------------------- HEADER SECTION-------------------- */
+#HEADER .navbar{
+    padding: 0;
+}
+#HEADER .container-fluid{
+    background: url(images/back1.jpg);
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: fill;
+    margin: 0;
+    padding: 0 1%;
+}
+div .head-col{
+    padding: 0;
+    margin: 0;
+}
+.header-back-img{
+    width: 100%;
+}
+#HEADER .navbar{
+    z-index: 1;
+}
+#HEADER .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.intro-title{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+    width: 100%;
+
+}
+
+.intro-text{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Reenie Beanie', cursive;
+    width: 100%;
+
+}
+
+
+@media (min-width: 310px)  and (max-width: 430px) {
+    #HEADER .nav-link{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #HEADER .intro-title{
+        font-size: 3.5rem;
+        margin-top: 5%;
+    }
+    #HEADER .intro-text{
+        font-size: 1.75rem;
+    }
+}
+@media (min-width: 430px)  and (max-width: 770px) {
+    #HEADER .navbar{
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+    #HEADER .intro-title{
+        font-size: 4rem;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    #HEADER .intro-text{
+        font-size: 2rem;
+        margin-top: 5%;
+        margin-left: 5%;
+    } 
+}
+@media (min-width: 770px)  and (max-width: 1030px) {
+    #HEADER .navbar{
+        margin-top: 8%;
+    }
+    #HEADER .nav-link{
+        font-size: 1.1rem;
+    }
+    #HEADER .intro-title{
+        font-size: 4.5rem;
+        margin-top: 10%;
+    }
+    #HEADER .intro-text{
+        font-size: 2.25rem;
+        margin-top: 5%;
+    }    
+}
+@media (min-width: 1030px)  and (max-width: 1450px) {
+    #HEADER .navbar{
+        margin-top: 6%;
+    }
+    #HEADER .nav-link{
+        font-size: 1rem;
+    }
+    #HEADER .nav-link:hover{
+        transition: 1s;
+        color: black;
+        transform: scale(1.1);    
+    }
+    #HEADER .intro-title{
+        font-size: 5rem;
+        margin-top: 10%;
+    }
+    #HEADER .intro-text{
+        font-size: 2.5rem;
+        margin-top: 5%;
+    }    
+}
+@media (min-width: 1450px)  and (max-width: 1770px) {
+    #HEADER .navbar{
+        margin-top: 8%;
+    }
+    #HEADER .nav-link{
+        font-size: 1.1rem;
+    }
+    #HEADER .nav-link:hover{
+        transition: 1s;
+        color: black;
+        transform: scale(1.1);    
+    }
+    #HEADER .intro-title{
+        font-size: 6rem;
+        margin-top: 10%;
+    }
+    #HEADER .intro-text{
+        font-size: 3rem;
+        margin-top: 5%;
+    }    
+}
+@media (min-width: 1770px){
+    #HEADER .navbar{
+        margin-top: 7%;
+    }
+    #HEADER .nav-link{
+        font-size: 1.4rem;
+    }
+    #HEADER .nav-link:hover{
+        transition: 1s;
+        color: black;
+        transform: scale(1.1);    
+    }
+    #HEADER .intro-title{
+        font-size: 9rem;
+        margin-top: 10%;
+    }
+    #HEADER .intro-text{
+        font-size: 4.5rem;
+        margin-top: 5%;
+    }    
+}
+
+
+
+
+/*---------------------- HEADER SECTION-------------------- */
