@@ -180,10 +180,10 @@ div .head-col{
     }
 }
 @media (min-width: 430px)  and (max-width: 575px) {
-    #HEADER .nav-link{
+/*     #HEADER .nav-link{
         text-align: left;
         padding-left: 5%;
-    }
+    } */
     #HEADER .navbar{
         /* margin-top: 15%; */
         margin-left: 5%;
@@ -200,10 +200,10 @@ div .head-col{
     } 
 }
 @media (min-width: 575px)  and (max-width: 770px) {
-    #HEADER .nav-link{
+/*     #HEADER .nav-link{
         text-align: left;
         padding-left: 5%;
-    }
+    } */
     #HEADER .navbar{
         margin-top: 15%;
         margin-left: 5%;
@@ -221,7 +221,7 @@ div .head-col{
 }
 @media (min-width: 770px)  and (max-width: 1030px) {
     #HEADER .navbar{
-        margin-top: 8%;
+        margin-top: 15%;
     }
     #HEADER .nav-link{
         font-size: 1.1rem;
