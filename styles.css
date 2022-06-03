@@ -56,7 +56,15 @@ body{
         left: 51%;
     }
 }
-@media (min-width:480px ) and (max-width:770px){
+@media (min-width:430px ) and (max-width:580px){
+    #PRELOADER .loader1{
+        left: 38%;
+    }
+    #PRELOADER .loader2{
+        left: 51%;
+    }
+}
+@media (min-width:580px ) and (max-width:770px){
     #PRELOADER .loader1{
         left: 40%;
     }
@@ -96,7 +104,6 @@ body{
       transform: translateY(5px);
     }
   }
-/* } */
 
 /* ---------------------PRELOADER------------------------- */
 
@@ -146,7 +153,19 @@ div .head-col{
 
 }
 
-
+@media (min-width: 100px) and (max-width: 310px) {
+    #HEADER .nav-link{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #HEADER .intro-title{
+        font-size: 2.5rem;
+        margin-top: 5%;
+    }
+    #HEADER .intro-text{
+        font-size: 1.3rem;
+    }
+}
 @media (min-width: 310px)  and (max-width: 430px) {
     #HEADER .nav-link{
         text-align: left;
@@ -161,19 +180,23 @@ div .head-col{
     }
 }
 @media (min-width: 430px)  and (max-width: 770px) {
+    /* #HEADER .nav-link{
+        text-align: left;
+        padding-left: 5%;
+    } */
     #HEADER .navbar{
-        margin-top: 12%;
-        margin-left: 5%;
+        /* margin-top: 5%; */
+        /* margin-left: 5%; */
     }
     #HEADER .intro-title{
         font-size: 4rem;
         margin-top: 10%;
-        margin-left: 5%;
+        /* margin-left: 5%; */
     }
     #HEADER .intro-text{
         font-size: 2rem;
         margin-top: 5%;
-        margin-left: 5%;
+        /* margin-left: 5%; */
     } 
 }
 @media (min-width: 770px)  and (max-width: 1030px) {
