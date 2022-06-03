@@ -179,14 +179,14 @@ div .head-col{
         font-size: 1.75rem;
     }
 }
-@media (min-width: 430px)  and (max-width: 770px) {
-    /* #HEADER .nav-link{
+@media (min-width: 430px)  and (max-width: 575px) {
+    #HEADER .nav-link{
         text-align: left;
         padding-left: 5%;
-    } */
+    }
     #HEADER .navbar{
-        /* margin-top: 5%; */
-        /* margin-left: 5%; */
+        /* margin-top: 15%; */
+        margin-left: 5%;
     }
     #HEADER .intro-title{
         font-size: 4rem;
@@ -197,6 +197,26 @@ div .head-col{
         font-size: 2rem;
         margin-top: 5%;
         /* margin-left: 5%; */
+    } 
+}
+@media (min-width: 575px)  and (max-width: 770px) {
+    #HEADER .nav-link{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #HEADER .navbar{
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+    #HEADER .intro-title{
+        font-size: 3.5rem;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    #HEADER .intro-text{
+        font-size: 2rem;
+        margin-top: 5%;
+        margin-left: 2%;
     } 
 }
 @media (min-width: 770px)  and (max-width: 1030px) {
